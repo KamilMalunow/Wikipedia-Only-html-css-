@@ -1,0 +1,48 @@
+.aside--logo {
+    display: block;
+    width: 140px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.nav--navigation {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+
+.nav--header {
+    font-weight: 500;
+    margin: 20px 0 0 0;
+    padding: 0 20px 3px 20px;
+    color: rgba(26, 25, 25, 0.842);
+}
+
+.nav--list {
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.listItems--link {
+    text-decoration: none;
+    color: #0645ad;
+}
+.listItems--link{
+    border-bottom: 1px solid transparent;
+}
+.listItems--link:hover{
+    border-bottom: 1px solid #0645ad;
+    
+}
+.nav--list__border{
+    border-top: 1px solid rgba(128, 128, 128, 0.63);
+    padding-top: 3px;
+    min-width: 100%;
+    min-height: 1px;
+}

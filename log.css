@@ -1,0 +1,23 @@
+.log--layout{
+ min-width: 100%;   
+}
+
+.log--list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 0.9rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 10px 0 0;
+}
+
+#log--list__firstChild{
+    color: black;
+    opacity: 0.8;
+}
+
+#log--list__firstChild:hover{
+    border: none;
+}

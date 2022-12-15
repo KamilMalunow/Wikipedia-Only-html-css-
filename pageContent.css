@@ -1,0 +1,41 @@
+.page--content{
+    background-color: white;
+    border: 1px solid #a7d7f9;
+    margin-top: -1px;
+}
+
+article{
+    margin: 0;
+    padding: 20px;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+hr{
+    margin:2px
+}
+.ariticle-adnotation{
+    margin-bottom: 0;
+}
+.article__inforamtion{
+    padding: 20px 20px 0;
+    margin: 0;
+}
+
+.hyperlink{
+    color: #0645ad;
+    cursor: pointer;
+}
+
+.hyperlink:hover{
+    border-bottom: 1px solid #0645ad;
+}
+
+.article--sections{
+    display: grid;
+    grid-template-columns: 5fr 1.2fr;
+    gap: 20px;
+}

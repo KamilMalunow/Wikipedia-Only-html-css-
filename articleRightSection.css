@@ -1,0 +1,47 @@
+.right--section {
+    min-width: 100%;
+}
+
+.right--section>h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.right--seciton__card {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.right--seciton__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.img--adnotation {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.card--layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.card--layout > .hyperlink {
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.card--layout > .hyperlink:hover{
+    border: none;
+}
+.card--layout > p{
+    font-size: 0.8rem;
+    margin: 10px 0 0 0;
+    letter-spacing: 0.3px;
+}

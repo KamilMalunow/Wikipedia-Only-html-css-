@@ -1,0 +1,35 @@
+.content--list__items{
+    max-width: 300px;
+    border: 1px solid black;
+    background-color: #f8f9fa;
+    padding-bottom: 10px;
+}
+
+.content--list__items > h4{
+ display: flex;
+ justify-content: center;
+ margin: 10px;
+}
+
+.secondlevel--list__items{
+    margin-top: 5px;
+    padding-bottom: 3px; 
+}
+.list--header{
+    margin-top: 5px;
+}
+
+.list--items{
+    padding:  0 30px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+.list--items__secondlevel{
+    list-style-type: none;
+    padding: 0;
+    max-width: fit-content;
+}
+
+.list--numbers{
+    margin-right: 5px;
+}
